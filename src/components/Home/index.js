@@ -20,7 +20,7 @@ function Home() {
       <Carousel.Item>
         <img
           className={styles.carouselImage} // Use className for the image
-          src="https://via.placeholder.com/800x400?text=Digital+Resources&bg=eee"
+          src="https://www.google.com/search?sca_esv=52e5a364f5a1b9dc&sxsrf=AHTn8zoJYdp7J3hjhYc3Qhl9IK5xYn_jEA:1740303835519&q=chos&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBpwxALD7bRaeOIZxqOFEngzB_O_LYSS4XXpaWwzVPCpGbEoTNp6A3iVxE6oOjTLUGiy65eqQn4zr4j5xKfK6hjRz-KdV8qFYZeobmtuj3xZt7_hdHweDze4MsAKOwlJLaoMDtNqdPmWxXsf04Zeax_1IHVW4&sa=X&ved=2ahUKEwjmg6v_wNmLAxUNslYBHTOYEkgQtKgLegQIEhAB&biw=1876&bih=920&dpr=1#vhid=yB-2wjsOgf3FLM&vssid=mosaic"
           alt="Digital Resources"
         />
         <Carousel.Caption>
