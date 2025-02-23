@@ -1,0 +1,125 @@
+/* General Layout */
+.book-container {
+  padding: 20px;
+}
+
+.sidebar-authors {
+  background-color: #f8f8f8;
+}
+
+.sidebar-title {
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.author-list .author-item,
+.genre-list .genre-item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.author-list .author-item:last-child,
+.genre-list .genre-item:last-child {
+  border-bottom: none;
+}
+
+.author-list .author-item:hover,
+.genre-list .genre-item:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* Featured Books Styles */
+.featured-books .book-col {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-books .book-card {
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.featured-books .book-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-books .book-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.featured-books .book-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-image {
+  max-width: 100%;  /* This will ensure that the image does not exceed the width of its container */
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.sidebar-authors {
+  background-color: #f8f9fa; /* Change the background color */
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 1.5em; /* Increase the font size */
+  margin-bottom: 20px;
+}
+
+.ListGroup.Item {
+  margin-bottom: 10px; /* Add some margin to the bottom */
+  cursor: pointer; /* Change the cursor when hovering over the item */
+}
+
+.featured-books {
+  padding: 20px; /* Add some padding */
+}
+
+.featured-books h2 {
+  margin-bottom: 20px; /* Add some margin to the bottom */
+}
+
+.book-image {
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: 200px;
+  object-fit: cover; /* Ensure the image covers the whole area without distortion */
+  display: block;
+  margin: auto; /* Center the image */
+}
+
+.list-group-item:hover {
+  background-color: #105193; /* Change to the color you want when hovering */
+}
+
+.sidebar-authors {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark grey text */
+}
+
+.sidebar-title {
+  color: #007bff; /* Blue text */
+}
+
+.list-group-item {
+  color: #333; /* Dark grey text */
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef; /* Lighter grey background when hovered */
+  color: #007bff; /* Blue text when hovered */
+}
+
+.featured-books {
+  color: #333; /* Dark grey text */
+}
